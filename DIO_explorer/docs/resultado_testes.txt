@@ -1,0 +1,90 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Library/Developer/CommandLineTools/usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/caiorodrigues/.bob/playground/Projeto-Final-DIO-/DIO_explorer/src
+plugins: cov-7.1.0
+collecting ... collected 61 items
+
+test_dio_commands.py::TestLoadTrilhas::test_arquivo_inexistente_lanca_erro PASSED [  1%]
+test_dio_commands.py::TestLoadTrilhas::test_cada_item_tem_campos_obrigatorios PASSED [  3%]
+test_dio_commands.py::TestLoadTrilhas::test_lista_nao_vazia PASSED       [  4%]
+test_dio_commands.py::TestLoadTrilhas::test_retorna_lista PASSED         [  6%]
+test_dio_commands.py::TestFindTrilha::test_campos_da_trilha_java PASSED  [  8%]
+test_dio_commands.py::TestFindTrilha::test_encontra_java_case_insensitive_maiusculo PASSED [  9%]
+test_dio_commands.py::TestFindTrilha::test_encontra_java_case_insensitive_minusculo PASSED [ 11%]
+test_dio_commands.py::TestFindTrilha::test_encontra_java_exato PASSED    [ 13%]
+test_dio_commands.py::TestFindTrilha::test_retorna_none_para_tecnologia_inexistente PASSED [ 14%]
+test_dio_commands.py::TestAvailableTechnologies::test_contem_java PASSED [ 16%]
+test_dio_commands.py::TestAvailableTechnologies::test_pelo_menos_dez_tecnologias PASSED [ 18%]
+test_dio_commands.py::TestAvailableTechnologies::test_retorna_lista_de_strings PASSED [ 19%]
+test_dio_commands.py::TestComandoTrilha::test_badges_disponiveis PASSED  [ 21%]
+test_dio_commands.py::TestComandoTrilha::test_case_insensitive_java_minusculo PASSED [ 22%]
+test_dio_commands.py::TestComandoTrilha::test_lives_ao_vivo_tres_lives PASSED [ 24%]
+test_dio_commands.py::TestComandoTrilha::test_nivel_intermediario PASSED [ 26%]
+test_dio_commands.py::TestComandoTrilha::test_numero_de_modulos PASSED   [ 27%]
+test_dio_commands.py::TestComandoTrilha::test_promocao_cupom PASSED      [ 29%]
+test_dio_commands.py::TestComandoTrilha::test_promocao_desconto PASSED   [ 31%]
+test_dio_commands.py::TestComandoTrilha::test_retorna_nome_correto PASSED [ 32%]
+test_dio_commands.py::TestComandoTrilha::test_retorna_tecnologia_java PASSED [ 34%]
+test_dio_commands.py::TestComandoTrilha::test_status_ok_para_java PASSED [ 36%]
+test_dio_commands.py::TestComandoTrilha::test_tecnologia_inexistente_lista_disponiveis PASSED [ 37%]
+test_dio_commands.py::TestComandoTrilha::test_tecnologia_inexistente_mensagem PASSED [ 39%]
+test_dio_commands.py::TestComandoTrilha::test_tecnologia_inexistente_status_not_found PASSED [ 40%]
+test_dio_commands.py::TestComandoTrilha::test_vitalicio_true PASSED      [ 42%]
+test_dio_commands.py::TestComandoTrilha::test_xp_total PASSED            [ 44%]
+test_dio_commands.py::TestComandoDesafio::test_case_insensitive_nivel PASSED [ 45%]
+test_dio_commands.py::TestComandoDesafio::test_enunciado_nao_vazio PASSED [ 47%]
+test_dio_commands.py::TestComandoDesafio::test_enunciado_pertence_ao_banco PASSED [ 49%]
+test_dio_commands.py::TestComandoDesafio::test_nivel_avancado_xp_range PASSED [ 50%]
+test_dio_commands.py::TestComandoDesafio::test_nivel_basico_xp_range PASSED [ 52%]
+test_dio_commands.py::TestComandoDesafio::test_nivel_invalido PASSED     [ 54%]
+test_dio_commands.py::TestComandoDesafio::test_nivel_invalido_lista_validos PASSED [ 55%]
+test_dio_commands.py::TestComandoDesafio::test_nivel_retornado_correto PASSED [ 57%]
+test_dio_commands.py::TestComandoDesafio::test_numero_desafio_dentro_do_range PASSED [ 59%]
+test_dio_commands.py::TestComandoDesafio::test_status_ok_java_intermediario PASSED [ 60%]
+test_dio_commands.py::TestComandoDesafio::test_tecnologia_inexistente PASSED [ 62%]
+test_dio_commands.py::TestComandoDesafio::test_tecnologia_retornada_correta PASSED [ 63%]
+test_dio_commands.py::TestComandoDesafio::test_tempo_dentro_do_range_intermediario PASSED [ 65%]
+test_dio_commands.py::TestComandoDesafio::test_xp_dentro_do_range_intermediario PASSED [ 67%]
+test_dio_commands.py::TestGerarCodigoCertificado::test_formato_correto PASSED [ 68%]
+test_dio_commands.py::TestGerarCodigoCertificado::test_sufixo_quatro_digitos PASSED [ 70%]
+test_dio_commands.py::TestGerarCodigoCertificado::test_unicidade_provavel PASSED [ 72%]
+test_dio_commands.py::TestGerarCodigoCertificado::test_usa_data_atual_por_padrao PASSED [ 73%]
+test_dio_commands.py::TestComandoCertificado::test_badges_presentes PASSED [ 75%]
+test_dio_commands.py::TestComandoCertificado::test_case_insensitive_tecnologia PASSED [ 77%]
+test_dio_commands.py::TestComandoCertificado::test_codigo_certificado_formato PASSED [ 78%]
+test_dio_commands.py::TestComandoCertificado::test_data_emissao_formatada PASSED [ 80%]
+test_dio_commands.py::TestComandoCertificado::test_lives_participadas PASSED [ 81%]
+test_dio_commands.py::TestComandoCertificado::test_nivel_correto PASSED  [ 83%]
+test_dio_commands.py::TestComandoCertificado::test_nome_case_sensitive_preservado PASSED [ 85%]
+test_dio_commands.py::TestComandoCertificado::test_nome_trilha_correto PASSED [ 86%]
+test_dio_commands.py::TestComandoCertificado::test_nome_usuario_preservado PASSED [ 88%]
+test_dio_commands.py::TestComandoCertificado::test_numero_de_modulos PASSED [ 90%]
+test_dio_commands.py::TestComandoCertificado::test_status_ok PASSED      [ 91%]
+test_dio_commands.py::TestComandoCertificado::test_tecnologia_correta PASSED [ 93%]
+test_dio_commands.py::TestComandoCertificado::test_tecnologia_inexistente_lista_disponiveis PASSED [ 95%]
+test_dio_commands.py::TestComandoCertificado::test_tecnologia_inexistente_not_found PASSED [ 96%]
+test_dio_commands.py::TestComandoCertificado::test_vitalicio PASSED      [ 98%]
+test_dio_commands.py::TestComandoCertificado::test_xp_total PASSED       [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.9.6-final-0 ________________
+
+Name              Stmts   Miss  Cover   Missing
+-----------------------------------------------
+dio_commands.py      48      0   100%
+-----------------------------------------------
+TOTAL                48      0   100%
+============================== 61 passed in 0.12s ==============================
+
+========================================
+RESUMO DE EXECUÇÃO
+========================================
+Data/Hora: 19/10/2026 16:23:03
+Python: Python 3.9.6
+Arquivo testado: src/dio_commands.py
+Arquivo de testes: src/test_dio_commands.py
+Aluno referência: Carlos Mendes
+Tecnologia principal: Java
+Cobertura obtida: 100% (meta: >= 70%)
+Status final: ✅ APROVADO
